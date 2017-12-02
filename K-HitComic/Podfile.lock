@@ -1,0 +1,20 @@
+PODS:
+  - FLAnimatedImage (1.0.8)
+  - SDWebImage (3.7.3):
+    - SDWebImage/Core (= 3.7.3)
+  - SDWebImage/Core (3.7.3)
+  - SlideMenuControllerSwift (3.0.1)
+
+DEPENDENCIES:
+  - FLAnimatedImage (~> 1.0)
+  - SDWebImage
+  - SlideMenuControllerSwift
+
+SPEC CHECKSUMS:
+  FLAnimatedImage: f9422f796135aff80d8c00b2afc48015bb746e24
+  SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
+  SlideMenuControllerSwift: 9a163b16d54afab734add42858cba7ef7c307755
+
+PODFILE CHECKSUM: 0f1a2205de5326dfefbcc93ecdcfc1c46e484071
+
+COCOAPODS: 1.3.1
