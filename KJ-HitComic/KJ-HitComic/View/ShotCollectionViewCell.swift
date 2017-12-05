@@ -13,8 +13,8 @@ class ShotCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var shotName: UILabel!
     @IBOutlet weak var designerName: UILabel!
     @IBOutlet weak var designerIcon: UIImageView!
-    @IBOutlet weak var viewLabel: UILabel!
-    @IBOutlet weak var viewUnitLabel: UILabel!
+    //@IBOutlet weak var viewLabel: UILabel!
+    //@IBOutlet weak var viewUnitLabel: UILabel!
 
 //    @IBOutlet weak var animatedImageView: FLAnimatedImageView!
     override func awakeFromNib() {
@@ -27,7 +27,7 @@ class ShotCollectionViewCell: UICollectionViewCell {
         
         shotName.textColor = UIColor.cellLabelColor()
         designerName.textColor = UIColor.cellLabelColor()
-        viewLabel.textColor = UIColor.cellLabelColor()
-        viewUnitLabel.textColor = UIColor.cellLabelColor()
+        //viewLabel.textColor = UIColor.cellLabelColor()
+        //viewUnitLabel.textColor = UIColor.cellLabelColor()
     }
 }

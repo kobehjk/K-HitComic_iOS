@@ -87,7 +87,7 @@ class ShotCollectionViewController: UICollectionViewController{
         
         cell.shotName.text = shot.shotName
         cell.designerName.text = shot.designerName
-        cell.viewLabel.text = String(shot.shotCount)
+        //cell.viewLabel.text = String(shot.shotCount)
         
         
         if shots.count - 1 == indexPath.row && shotPages < 5 {
