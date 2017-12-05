@@ -30,6 +30,19 @@
 		0E01074E1FD318A20054D7F6 /* NonMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E01074B1FD318A20054D7F6 /* NonMenuController.swift */; };
 		0E01074F1FD318A20054D7F6 /* SwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E01074C1FD318A20054D7F6 /* SwiftViewController.swift */; };
 		0E0107511FD319050054D7F6 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0107501FD319050054D7F6 /* UIImageView.swift */; };
+		0EAF7D261FD6F10700A49B49 /* string_buffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 0EAF7CE81FD6F10700A49B49 /* string_buffer.c */; };
+		0EAF7D271FD6F10700A49B49 /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = 0EAF7CEA1FD6F10700A49B49 /* util.c */; };
+		0EAF7D281FD6F10700A49B49 /* vector.c in Sources */ = {isa = PBXBuildFile; fileRef = 0EAF7CED1FD6F10700A49B49 /* vector.c */; };
+		0EAF7D291FD6F10700A49B49 /* attribute.c in Sources */ = {isa = PBXBuildFile; fileRef = 0EAF7CEE1FD6F10700A49B49 /* attribute.c */; };
+		0EAF7D2A1FD6F10700A49B49 /* char_ref.c in Sources */ = {isa = PBXBuildFile; fileRef = 0EAF7CEF1FD6F10700A49B49 /* char_ref.c */; };
+		0EAF7D2B1FD6F10700A49B49 /* utf8.c in Sources */ = {isa = PBXBuildFile; fileRef = 0EAF7CF11FD6F10700A49B49 /* utf8.c */; };
+		0EAF7D2C1FD6F10700A49B49 /* error.c in Sources */ = {isa = PBXBuildFile; fileRef = 0EAF7CF61FD6F10700A49B49 /* error.c */; };
+		0EAF7D2D1FD6F10700A49B49 /* tag.c in Sources */ = {isa = PBXBuildFile; fileRef = 0EAF7CF81FD6F10700A49B49 /* tag.c */; };
+		0EAF7D2E1FD6F10700A49B49 /* parser.c in Sources */ = {isa = PBXBuildFile; fileRef = 0EAF7CFC1FD6F10700A49B49 /* parser.c */; };
+		0EAF7D2F1FD6F10700A49B49 /* tokenizer.c in Sources */ = {isa = PBXBuildFile; fileRef = 0EAF7CFE1FD6F10700A49B49 /* tokenizer.c */; };
+		0EAF7D301FD6F10700A49B49 /* string_piece.c in Sources */ = {isa = PBXBuildFile; fileRef = 0EAF7CFF1FD6F10700A49B49 /* string_piece.c */; };
+		0EAF7D311FD6F10700A49B49 /* OCGumbo+Query.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAF7D031FD6F10700A49B49 /* OCGumbo+Query.m */; };
+		0EAF7D321FD6F10700A49B49 /* OCGumbo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAF7D041FD6F10700A49B49 /* OCGumbo.m */; };
 		1B9EA0E933E66962FB801FD5 /* Pods_DribbbleReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A1D8367DFA4C7C07AB6FA50 /* Pods_DribbbleReader.framework */; };
 		9A0EBC311B0F4C10006FBD58 /* CAPSPageMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0EBC301B0F4C10006FBD58 /* CAPSPageMenu.swift */; };
 		9A0EBC331B0F4C80006FBD58 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0EBC321B0F4C80006FBD58 /* BaseViewController.swift */; };
@@ -89,6 +102,35 @@
 		0E01074B1FD318A20054D7F6 /* NonMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NonMenuController.swift; path = Controller/NonMenuController.swift; sourceTree = "<group>"; };
 		0E01074C1FD318A20054D7F6 /* SwiftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftViewController.swift; path = Controller/SwiftViewController.swift; sourceTree = "<group>"; };
 		0E0107501FD319050054D7F6 /* UIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		0EAF7CE81FD6F10700A49B49 /* string_buffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = string_buffer.c; sourceTree = "<group>"; };
+		0EAF7CE91FD6F10700A49B49 /* error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = error.h; sourceTree = "<group>"; };
+		0EAF7CEA1FD6F10700A49B49 /* util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = util.c; sourceTree = "<group>"; };
+		0EAF7CEB1FD6F10700A49B49 /* insertion_mode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = insertion_mode.h; sourceTree = "<group>"; };
+		0EAF7CEC1FD6F10700A49B49 /* parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = parser.h; sourceTree = "<group>"; };
+		0EAF7CED1FD6F10700A49B49 /* vector.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vector.c; sourceTree = "<group>"; };
+		0EAF7CEE1FD6F10700A49B49 /* attribute.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = attribute.c; sourceTree = "<group>"; };
+		0EAF7CEF1FD6F10700A49B49 /* char_ref.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = char_ref.c; sourceTree = "<group>"; };
+		0EAF7CF01FD6F10700A49B49 /* tokenizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tokenizer.h; sourceTree = "<group>"; };
+		0EAF7CF11FD6F10700A49B49 /* utf8.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = utf8.c; sourceTree = "<group>"; };
+		0EAF7CF21FD6F10700A49B49 /* string_piece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = string_piece.h; sourceTree = "<group>"; };
+		0EAF7CF31FD6F10700A49B49 /* tokenizer_states.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tokenizer_states.h; sourceTree = "<group>"; };
+		0EAF7CF41FD6F10700A49B49 /* token_type.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = token_type.h; sourceTree = "<group>"; };
+		0EAF7CF51FD6F10700A49B49 /* string_buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = string_buffer.h; sourceTree = "<group>"; };
+		0EAF7CF61FD6F10700A49B49 /* error.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = error.c; sourceTree = "<group>"; };
+		0EAF7CF71FD6F10700A49B49 /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
+		0EAF7CF81FD6F10700A49B49 /* tag.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tag.c; sourceTree = "<group>"; };
+		0EAF7CF91FD6F10700A49B49 /* char_ref.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = char_ref.h; sourceTree = "<group>"; };
+		0EAF7CFA1FD6F10700A49B49 /* vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vector.h; sourceTree = "<group>"; };
+		0EAF7CFB1FD6F10700A49B49 /* attribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = attribute.h; sourceTree = "<group>"; };
+		0EAF7CFC1FD6F10700A49B49 /* parser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = parser.c; sourceTree = "<group>"; };
+		0EAF7CFD1FD6F10700A49B49 /* utf8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utf8.h; sourceTree = "<group>"; };
+		0EAF7CFE1FD6F10700A49B49 /* tokenizer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tokenizer.c; sourceTree = "<group>"; };
+		0EAF7CFF1FD6F10700A49B49 /* string_piece.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = string_piece.c; sourceTree = "<group>"; };
+		0EAF7D001FD6F10700A49B49 /* gumbo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gumbo.h; sourceTree = "<group>"; };
+		0EAF7D011FD6F10700A49B49 /* OCGumbo+Query.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OCGumbo+Query.h"; sourceTree = "<group>"; };
+		0EAF7D021FD6F10700A49B49 /* OCGumbo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCGumbo.h; sourceTree = "<group>"; };
+		0EAF7D031FD6F10700A49B49 /* OCGumbo+Query.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OCGumbo+Query.m"; sourceTree = "<group>"; };
+		0EAF7D041FD6F10700A49B49 /* OCGumbo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCGumbo.m; sourceTree = "<group>"; };
 		0FC12706310D3037BEAC44E3 /* Pods-DribbbleReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DribbbleReader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DribbbleReader/Pods-DribbbleReader.debug.xcconfig"; sourceTree = "<group>"; };
 		4A1D8367DFA4C7C07AB6FA50 /* Pods_DribbbleReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DribbbleReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		83B26A4702BE88E94A65265A /* Pods-DribbbleReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DribbbleReader.release.xcconfig"; path = "Pods/Target Support Files/Pods-DribbbleReader/Pods-DribbbleReader.release.xcconfig"; sourceTree = "<group>"; };
@@ -168,6 +210,7 @@
 		0E01072B1FD301970054D7F6 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				0EAF7CBF1FD6F10600A49B49 /* OCGumbo */,
 				0E0107481FD3184E0054D7F6 /* UIApplication.swift */,
 				0E0107361FD302100054D7F6 /* UIView.swift */,
 				0E0107341FD301F10054D7F6 /* UIViewController.swift */,
@@ -179,6 +222,58 @@
 				0E0107501FD319050054D7F6 /* UIImageView.swift */,
 			);
 			path = Helper;
+			sourceTree = "<group>";
+		};
+		0EAF7CBF1FD6F10600A49B49 /* OCGumbo */ = {
+			isa = PBXGroup;
+			children = (
+				0EAF7CC01FD6F10600A49B49 /* gumbo */,
+				0EAF7D011FD6F10700A49B49 /* OCGumbo+Query.h */,
+				0EAF7D021FD6F10700A49B49 /* OCGumbo.h */,
+				0EAF7D031FD6F10700A49B49 /* OCGumbo+Query.m */,
+				0EAF7D041FD6F10700A49B49 /* OCGumbo.m */,
+			);
+			path = OCGumbo;
+			sourceTree = "<group>";
+		};
+		0EAF7CC01FD6F10600A49B49 /* gumbo */ = {
+			isa = PBXGroup;
+			children = (
+				0EAF7CE71FD6F10700A49B49 /* src */,
+			);
+			path = gumbo;
+			sourceTree = "<group>";
+		};
+		0EAF7CE71FD6F10700A49B49 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				0EAF7CE81FD6F10700A49B49 /* string_buffer.c */,
+				0EAF7CE91FD6F10700A49B49 /* error.h */,
+				0EAF7CEA1FD6F10700A49B49 /* util.c */,
+				0EAF7CEB1FD6F10700A49B49 /* insertion_mode.h */,
+				0EAF7CEC1FD6F10700A49B49 /* parser.h */,
+				0EAF7CED1FD6F10700A49B49 /* vector.c */,
+				0EAF7CEE1FD6F10700A49B49 /* attribute.c */,
+				0EAF7CEF1FD6F10700A49B49 /* char_ref.c */,
+				0EAF7CF01FD6F10700A49B49 /* tokenizer.h */,
+				0EAF7CF11FD6F10700A49B49 /* utf8.c */,
+				0EAF7CF21FD6F10700A49B49 /* string_piece.h */,
+				0EAF7CF31FD6F10700A49B49 /* tokenizer_states.h */,
+				0EAF7CF41FD6F10700A49B49 /* token_type.h */,
+				0EAF7CF51FD6F10700A49B49 /* string_buffer.h */,
+				0EAF7CF61FD6F10700A49B49 /* error.c */,
+				0EAF7CF71FD6F10700A49B49 /* util.h */,
+				0EAF7CF81FD6F10700A49B49 /* tag.c */,
+				0EAF7CF91FD6F10700A49B49 /* char_ref.h */,
+				0EAF7CFA1FD6F10700A49B49 /* vector.h */,
+				0EAF7CFB1FD6F10700A49B49 /* attribute.h */,
+				0EAF7CFC1FD6F10700A49B49 /* parser.c */,
+				0EAF7CFD1FD6F10700A49B49 /* utf8.h */,
+				0EAF7CFE1FD6F10700A49B49 /* tokenizer.c */,
+				0EAF7CFF1FD6F10700A49B49 /* string_piece.c */,
+				0EAF7D001FD6F10700A49B49 /* gumbo.h */,
+			);
+			path = src;
 			sourceTree = "<group>";
 		};
 		9A1863781B08BD1F0061BBF4 /* Controller */ = {
@@ -477,30 +572,43 @@
 				0E0107371FD302100054D7F6 /* UIView.swift in Sources */,
 				0E0107391FD302200054D7F6 /* UITableViewExtension.swift in Sources */,
 				9A0EBC381B0F59EC006FBD58 /* ShotCollectionViewController.swift in Sources */,
+				0EAF7D291FD6F10700A49B49 /* attribute.c in Sources */,
 				9A5D44FB1B1F1B82004A0639 /* WebViewController.swift in Sources */,
 				0E0107461FD316B40054D7F6 /* ImageHeaderView.swift in Sources */,
 				9A0EBC311B0F4C10006FBD58 /* CAPSPageMenu.swift in Sources */,
+				0EAF7D301FD6F10700A49B49 /* string_piece.c in Sources */,
 				9A5D44FF1B1F3248004A0639 /* DetailViewController.swift in Sources */,
+				0EAF7D321FD6F10700A49B49 /* OCGumbo.m in Sources */,
 				0E0107301FD301970054D7F6 /* UIColor.swift in Sources */,
 				9ABB83431B19B9D300D699EB /* ImageModalViewController.swift in Sources */,
+				0EAF7D281FD6F10700A49B49 /* vector.c in Sources */,
 				9AF6AB8E1B08849500FD07E6 /* DribbbleObjectHandler.swift in Sources */,
+				0EAF7D2B1FD6F10700A49B49 /* utf8.c in Sources */,
+				0EAF7D2E1FD6F10700A49B49 /* parser.c in Sources */,
 				9A18637B1B08C32F0061BBF4 /* Color.swift in Sources */,
 				9AF6AB921B08850700FD07E6 /* Shot.swift in Sources */,
 				9AF6AB8A1B0881AE00FD07E6 /* Config.swift in Sources */,
 				0E0107311FD301970054D7F6 /* String.swift in Sources */,
+				0EAF7D261FD6F10700A49B49 /* string_buffer.c in Sources */,
 				9AF6AB651B0824C000FD07E6 /* AppDelegate.swift in Sources */,
 				0E0107411FD316B40054D7F6 /* BaseTableViewCell.swift in Sources */,
 				0E0107441FD316B40054D7F6 /* ExSlideMenuController.swift in Sources */,
 				0E01074D1FD318A20054D7F6 /* JavaViewController.swift in Sources */,
 				0E0107421FD316B40054D7F6 /* DataTableViewCell.swift in Sources */,
+				0EAF7D2C1FD6F10700A49B49 /* error.c in Sources */,
 				0E0107351FD301F10054D7F6 /* UIViewController.swift in Sources */,
+				0EAF7D311FD6F10700A49B49 /* OCGumbo+Query.m in Sources */,
 				0E0107491FD3184E0054D7F6 /* UIApplication.swift in Sources */,
+				0EAF7D2D1FD6F10700A49B49 /* tag.c in Sources */,
 				0E01072A1FD301910054D7F6 /* ShotCollectionViewCell.swift in Sources */,
+				0EAF7D2F1FD6F10700A49B49 /* tokenizer.c in Sources */,
 				0E0107331FD301970054D7F6 /* Utils.swift in Sources */,
 				0E01074E1FD318A20054D7F6 /* NonMenuController.swift in Sources */,
 				0E0107511FD319050054D7F6 /* UIImageView.swift in Sources */,
 				0E0107211FD2FF6B0054D7F6 /* LeftViewController.swift in Sources */,
 				0E0107321FD301970054D7F6 /* UIImage.swift in Sources */,
+				0EAF7D271FD6F10700A49B49 /* util.c in Sources */,
+				0EAF7D2A1FD6F10700A49B49 /* char_ref.c in Sources */,
 				9A0EBC331B0F4C80006FBD58 /* BaseViewController.swift in Sources */,
 				9AF6AB971B0888BE00FD07E6 /* HttpService.swift in Sources */,
 			);
@@ -567,6 +675,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Naoya Sugimoto (S8GGSYBVK5)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -617,6 +726,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Naoya Sugimoto (S8GGSYBVK5)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
