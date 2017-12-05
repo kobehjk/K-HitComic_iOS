@@ -1,0 +1,6 @@
+framework module Pods_KJ_HitComic {
+  umbrella header "Pods-KJ-HitComic-umbrella.h"
+
+  export *
+  module * { export * }
+}
