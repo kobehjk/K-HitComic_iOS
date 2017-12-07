@@ -18,8 +18,8 @@
 
 //please add gumbo(https://github.com/google/gumbo-parser/tree/master/src) sources or lib to the project.
 #include "gumbo.h"
+#import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
-
 //for OCGumbo+Query.
 id OCGumboNodeCast(GumboNode *node);
 id OCGumboAttributeCast(GumboAttribute *attribute);

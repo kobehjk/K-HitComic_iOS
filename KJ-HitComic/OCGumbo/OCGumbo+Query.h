@@ -53,7 +53,6 @@ typedef OCGumboNode *   (^NSArrayQueryBlockNI) (NSUInteger);
 typedef BOOL            (^NSArrayQueryBlockBS) (NSString *);
 typedef NSUInteger      (^NSArrayQueryBlockIN) (OCGumboNode *);
 typedef OCQueryObject * (^NSArrayQueryBlockAS) (NSString *);
-typedef OCQueryObject * (^NSArrayQueryBlockSA) (void);
 typedef NSString *      (^NSArrayQueryBlockSV) (void);
 
 @interface OCQueryObject : NSArray
@@ -62,11 +61,6 @@ typedef NSString *      (^NSArrayQueryBlockSV) (void);
  *  Get the combined text contents of the collection.
  */
 @property (nonatomic, weak, readonly) NSArrayQueryBlockSV text;
-
-/**
- *  Get the combined text array of element.
- */
-@property (nonatomic, weak, readonly) NSArrayQueryBlockSA textArray;
 
 /**
  *  Get the first element of the current collection.
