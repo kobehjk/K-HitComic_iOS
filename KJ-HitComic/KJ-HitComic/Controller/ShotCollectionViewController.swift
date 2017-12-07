@@ -8,6 +8,7 @@
 
 import UIKit
 import SDWebImage
+import YYWebImage
 
 let reuseIdentifier_Shot = "ShotCollectionViewCell"
 
@@ -80,6 +81,10 @@ class ShotCollectionViewController: UICollectionViewController{
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier_Shot, for: indexPath) as! ShotCollectionViewCell
         
         let shot = shots[indexPath.row]
+        
+        //cell.imageView.yy_setImage(with: URL(string: shot.imageUrl)!, options: YYWebImageOptions(rawValue: YYWebImageOptions.setImageWithFadeAnimation.rawValue))
+        
+        
         
         cell.imageView.sd_setImage(with: URL(string: shot.imageUrl)!)
 //        cell.imageView.layer.shadowColor = UIColor.blackColor().CGColor
