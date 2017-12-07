@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="17B1003" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Verdana.ttf">
+            <string>Verdana</string>
+        </array>
+        <array key="VerdanaItalic.ttf">
+            <string>Verdana-Italic</string>
+        </array>
+    </customFonts>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
@@ -26,20 +33,14 @@
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gBb-6M-dg0">
                         <rect key="frame" x="200" y="0.0" width="200" height="300"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sample" translatesAutoresizingMaskIntoConstraints="NO" id="bRn-Mv-70y">
-                                <rect key="frame" x="8" y="20" width="100" height="40"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="EzT-m3-jQF"/>
-                                </constraints>
-                            </imageView>
                             <label autoresizesSubviews="NO" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="252" horizontalCompressionResistancePriority="1000" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9nW-HN-GtH">
-                                <rect key="frame" x="10" y="70" width="180" height="16"/>
+                                <rect key="frame" x="10" y="20" width="180" height="75"/>
                                 <fontDescription key="fontDescription" name="Verdana-Italic" family="Verdana" pointSize="13"/>
                                 <color key="textColor" red="0.0977349653840065" green="0.0977320596575737" blue="0.09773370623588562" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label autoresizesSubviews="NO" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Designer" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wGM-7u-gtM">
-                                <rect key="frame" x="10" y="96" width="180" height="134"/>
+                                <rect key="frame" x="10" y="105" width="180" height="125"/>
                                 <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="12"/>
                                 <color key="textColor" red="0.0977349653840065" green="0.0977320596575737" blue="0.09773370623588562" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -52,19 +53,17 @@
                         <color key="backgroundColor" red="1" green="0.99997437000274658" blue="0.99999129772186279" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="wGM-7u-gtM" firstAttribute="width" secondItem="9nW-HN-GtH" secondAttribute="width" id="3N7-Ga-P6C"/>
-                            <constraint firstItem="bRn-Mv-70y" firstAttribute="leading" secondItem="gBb-6M-dg0" secondAttribute="leadingMargin" id="6WQ-Tz-gy8"/>
                             <constraint firstItem="wGM-7u-gtM" firstAttribute="leading" secondItem="9nW-HN-GtH" secondAttribute="leading" id="9n7-C1-czG"/>
-                            <constraint firstItem="bRn-Mv-70y" firstAttribute="top" secondItem="gBb-6M-dg0" secondAttribute="top" constant="20" id="EQa-cR-c8l"/>
                             <constraint firstItem="9nW-HN-GtH" firstAttribute="leading" secondItem="gBb-6M-dg0" secondAttribute="leading" constant="10" id="F2l-1h-Le0"/>
                             <constraint firstItem="wGM-7u-gtM" firstAttribute="bottom" secondItem="H1r-M1-L8y" secondAttribute="top" constant="-10" id="IXN-Fe-XL7"/>
                             <constraint firstItem="wGM-7u-gtM" firstAttribute="top" secondItem="9nW-HN-GtH" secondAttribute="bottom" constant="10" id="KPc-Ln-Nzd"/>
-                            <constraint firstItem="9nW-HN-GtH" firstAttribute="top" secondItem="bRn-Mv-70y" secondAttribute="bottom" constant="10" id="a4G-HJ-q8n"/>
+                            <constraint firstItem="9nW-HN-GtH" firstAttribute="top" secondItem="gBb-6M-dg0" secondAttribute="top" constant="20" id="bkx-sz-Yxd"/>
                             <constraint firstItem="H1r-M1-L8y" firstAttribute="top" secondItem="gBb-6M-dg0" secondAttribute="top" constant="240" id="dAx-xS-lw0"/>
-                            <constraint firstItem="bRn-Mv-70y" firstAttribute="width" secondItem="gBb-6M-dg0" secondAttribute="width" multiplier="0.5" id="kOJ-OM-3Yi"/>
                             <constraint firstItem="H1r-M1-L8y" firstAttribute="leading" secondItem="gBb-6M-dg0" secondAttribute="leading" constant="30" id="oei-bt-S7z"/>
                             <constraint firstAttribute="bottom" secondItem="H1r-M1-L8y" secondAttribute="bottom" constant="20" id="qlU-Zg-weB"/>
                             <constraint firstItem="9nW-HN-GtH" firstAttribute="width" secondItem="gBb-6M-dg0" secondAttribute="width" constant="-20" id="rry-nW-rIc"/>
                             <constraint firstAttribute="trailing" secondItem="H1r-M1-L8y" secondAttribute="trailing" constant="30" id="wzj-35-74e"/>
+                            <constraint firstItem="9nW-HN-GtH" firstAttribute="height" secondItem="gBb-6M-dg0" secondAttribute="height" multiplier="0.25" id="z3O-NA-UzV"/>
                         </constraints>
                     </view>
                 </subviews>
@@ -81,7 +80,6 @@
                 <constraint firstAttribute="trailing" secondItem="gBb-6M-dg0" secondAttribute="trailing" id="wVM-X8-zgz"/>
             </constraints>
             <connections>
-                <outlet property="designerIcon" destination="bRn-Mv-70y" id="lYA-EM-ARs"/>
                 <outlet property="designerName" destination="wGM-7u-gtM" id="T4G-sm-an0"/>
                 <outlet property="imageView" destination="3JT-n8-cpM" id="VQQ-Li-TP3"/>
                 <outlet property="shotName" destination="9nW-HN-GtH" id="CdH-ic-8bh"/>
@@ -91,6 +89,5 @@
     </objects>
     <resources>
         <image name="icon_512x512" width="256" height="256"/>
-        <image name="sample" width="200" height="150"/>
     </resources>
 </document>

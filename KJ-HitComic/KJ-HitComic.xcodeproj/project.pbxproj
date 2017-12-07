@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E240D0D1FD926D60067C658 /* attribute.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E240CCF1FD926D50067C658 /* attribute.c */; };
+		0E240D0E1FD926D60067C658 /* char_ref.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E240CD11FD926D50067C658 /* char_ref.c */; };
+		0E240D0F1FD926D60067C658 /* error.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E240CD31FD926D50067C658 /* error.c */; };
+		0E240D101FD926D60067C658 /* parser.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E240CD71FD926D50067C658 /* parser.c */; };
+		0E240D111FD926D60067C658 /* string_buffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E240CD91FD926D50067C658 /* string_buffer.c */; };
+		0E240D121FD926D60067C658 /* string_piece.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E240CDB1FD926D50067C658 /* string_piece.c */; };
+		0E240D131FD926D60067C658 /* tag.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E240CDD1FD926D50067C658 /* tag.c */; };
+		0E240D141FD926D60067C658 /* tokenizer.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E240CDF1FD926D50067C658 /* tokenizer.c */; };
+		0E240D151FD926D60067C658 /* utf8.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E240CE21FD926D50067C658 /* utf8.c */; };
+		0E240D161FD926D60067C658 /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E240CE41FD926D50067C658 /* util.c */; };
+		0E240D171FD926D60067C658 /* vector.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E240CE61FD926D50067C658 /* vector.c */; };
+		0E240D221FD926D60067C658 /* OCGumbo+Query.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E240CF51FD926D50067C658 /* OCGumbo+Query.m */; };
+		0E240D231FD926D60067C658 /* OCGumbo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E240CF71FD926D50067C658 /* OCGumbo.m */; };
 		0E997EA31FD803E100685DF8 /* ComicDataTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E997EA21FD803E100685DF8 /* ComicDataTools.swift */; };
 		0E997EA51FD80E4D00685DF8 /* UrlUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E997EA41FD80E4D00685DF8 /* UrlUnit.swift */; };
 		0EAF7D471FD6FD9300A49B49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAF7D461FD6FD9300A49B49 /* AppDelegate.swift */; };
@@ -20,19 +33,6 @@
 		0EAF7D971FD6FF2B00A49B49 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAF7D641FD6FF2B00A49B49 /* UIView.swift */; };
 		0EAF7D981FD6FF2B00A49B49 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAF7D651FD6FF2B00A49B49 /* UIColor.swift */; };
 		0EAF7D991FD6FF2B00A49B49 /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAF7D661FD6FF2B00A49B49 /* UITableViewExtension.swift */; };
-		0EAF7D9A1FD6FF2B00A49B49 /* string_buffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 0EAF7D6A1FD6FF2B00A49B49 /* string_buffer.c */; };
-		0EAF7D9B1FD6FF2B00A49B49 /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = 0EAF7D6C1FD6FF2B00A49B49 /* util.c */; };
-		0EAF7D9C1FD6FF2B00A49B49 /* vector.c in Sources */ = {isa = PBXBuildFile; fileRef = 0EAF7D6F1FD6FF2B00A49B49 /* vector.c */; };
-		0EAF7D9D1FD6FF2B00A49B49 /* attribute.c in Sources */ = {isa = PBXBuildFile; fileRef = 0EAF7D701FD6FF2B00A49B49 /* attribute.c */; };
-		0EAF7D9E1FD6FF2B00A49B49 /* char_ref.c in Sources */ = {isa = PBXBuildFile; fileRef = 0EAF7D711FD6FF2B00A49B49 /* char_ref.c */; };
-		0EAF7D9F1FD6FF2B00A49B49 /* utf8.c in Sources */ = {isa = PBXBuildFile; fileRef = 0EAF7D731FD6FF2B00A49B49 /* utf8.c */; };
-		0EAF7DA01FD6FF2B00A49B49 /* error.c in Sources */ = {isa = PBXBuildFile; fileRef = 0EAF7D781FD6FF2B00A49B49 /* error.c */; };
-		0EAF7DA11FD6FF2B00A49B49 /* tag.c in Sources */ = {isa = PBXBuildFile; fileRef = 0EAF7D7A1FD6FF2B00A49B49 /* tag.c */; };
-		0EAF7DA21FD6FF2B00A49B49 /* parser.c in Sources */ = {isa = PBXBuildFile; fileRef = 0EAF7D7E1FD6FF2B00A49B49 /* parser.c */; };
-		0EAF7DA31FD6FF2B00A49B49 /* tokenizer.c in Sources */ = {isa = PBXBuildFile; fileRef = 0EAF7D801FD6FF2B00A49B49 /* tokenizer.c */; };
-		0EAF7DA41FD6FF2B00A49B49 /* string_piece.c in Sources */ = {isa = PBXBuildFile; fileRef = 0EAF7D811FD6FF2B00A49B49 /* string_piece.c */; };
-		0EAF7DA51FD6FF2B00A49B49 /* OCGumbo+Query.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAF7D851FD6FF2B00A49B49 /* OCGumbo+Query.m */; };
-		0EAF7DA61FD6FF2B00A49B49 /* OCGumbo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAF7D861FD6FF2B00A49B49 /* OCGumbo.m */; };
 		0EAF7DA71FD6FF2B00A49B49 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAF7D871FD6FF2B00A49B49 /* String.swift */; };
 		0EAF7DA81FD6FF2B00A49B49 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAF7D881FD6FF2B00A49B49 /* UIImage.swift */; };
 		0EAF7DA91FD6FF2B00A49B49 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAF7D891FD6FF2B00A49B49 /* UIViewController.swift */; };
@@ -70,6 +70,35 @@
 
 /* Begin PBXFileReference section */
 		03D5405D4EB2DC603CD4FFED /* Pods-KJ-HitComic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KJ-HitComic.release.xcconfig"; path = "Pods/Target Support Files/Pods-KJ-HitComic/Pods-KJ-HitComic.release.xcconfig"; sourceTree = "<group>"; };
+		0E240CCF1FD926D50067C658 /* attribute.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = attribute.c; sourceTree = "<group>"; };
+		0E240CD01FD926D50067C658 /* attribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = attribute.h; sourceTree = "<group>"; };
+		0E240CD11FD926D50067C658 /* char_ref.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = char_ref.c; sourceTree = "<group>"; };
+		0E240CD21FD926D50067C658 /* char_ref.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = char_ref.h; sourceTree = "<group>"; };
+		0E240CD31FD926D50067C658 /* error.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = error.c; sourceTree = "<group>"; };
+		0E240CD41FD926D50067C658 /* error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = error.h; sourceTree = "<group>"; };
+		0E240CD51FD926D50067C658 /* gumbo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gumbo.h; sourceTree = "<group>"; };
+		0E240CD61FD926D50067C658 /* insertion_mode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = insertion_mode.h; sourceTree = "<group>"; };
+		0E240CD71FD926D50067C658 /* parser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = parser.c; sourceTree = "<group>"; };
+		0E240CD81FD926D50067C658 /* parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = parser.h; sourceTree = "<group>"; };
+		0E240CD91FD926D50067C658 /* string_buffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = string_buffer.c; sourceTree = "<group>"; };
+		0E240CDA1FD926D50067C658 /* string_buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = string_buffer.h; sourceTree = "<group>"; };
+		0E240CDB1FD926D50067C658 /* string_piece.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = string_piece.c; sourceTree = "<group>"; };
+		0E240CDC1FD926D50067C658 /* string_piece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = string_piece.h; sourceTree = "<group>"; };
+		0E240CDD1FD926D50067C658 /* tag.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tag.c; sourceTree = "<group>"; };
+		0E240CDE1FD926D50067C658 /* token_type.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = token_type.h; sourceTree = "<group>"; };
+		0E240CDF1FD926D50067C658 /* tokenizer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tokenizer.c; sourceTree = "<group>"; };
+		0E240CE01FD926D50067C658 /* tokenizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tokenizer.h; sourceTree = "<group>"; };
+		0E240CE11FD926D50067C658 /* tokenizer_states.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tokenizer_states.h; sourceTree = "<group>"; };
+		0E240CE21FD926D50067C658 /* utf8.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = utf8.c; sourceTree = "<group>"; };
+		0E240CE31FD926D50067C658 /* utf8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utf8.h; sourceTree = "<group>"; };
+		0E240CE41FD926D50067C658 /* util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = util.c; sourceTree = "<group>"; };
+		0E240CE51FD926D50067C658 /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
+		0E240CE61FD926D50067C658 /* vector.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vector.c; sourceTree = "<group>"; };
+		0E240CE71FD926D50067C658 /* vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vector.h; sourceTree = "<group>"; };
+		0E240CF41FD926D50067C658 /* OCGumbo+Query.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OCGumbo+Query.h"; sourceTree = "<group>"; };
+		0E240CF51FD926D50067C658 /* OCGumbo+Query.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OCGumbo+Query.m"; sourceTree = "<group>"; };
+		0E240CF61FD926D50067C658 /* OCGumbo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCGumbo.h; sourceTree = "<group>"; };
+		0E240CF71FD926D50067C658 /* OCGumbo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCGumbo.m; sourceTree = "<group>"; };
 		0E997EA21FD803E100685DF8 /* ComicDataTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicDataTools.swift; sourceTree = "<group>"; };
 		0E997EA41FD80E4D00685DF8 /* UrlUnit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlUnit.swift; sourceTree = "<group>"; };
 		0EAF7D431FD6FD9300A49B49 /* KJ-HitComic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KJ-HitComic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,35 +114,6 @@
 		0EAF7D641FD6FF2B00A49B49 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		0EAF7D651FD6FF2B00A49B49 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		0EAF7D661FD6FF2B00A49B49 /* UITableViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
-		0EAF7D6A1FD6FF2B00A49B49 /* string_buffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = string_buffer.c; sourceTree = "<group>"; };
-		0EAF7D6B1FD6FF2B00A49B49 /* error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = error.h; sourceTree = "<group>"; };
-		0EAF7D6C1FD6FF2B00A49B49 /* util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = util.c; sourceTree = "<group>"; };
-		0EAF7D6D1FD6FF2B00A49B49 /* insertion_mode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = insertion_mode.h; sourceTree = "<group>"; };
-		0EAF7D6E1FD6FF2B00A49B49 /* parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = parser.h; sourceTree = "<group>"; };
-		0EAF7D6F1FD6FF2B00A49B49 /* vector.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vector.c; sourceTree = "<group>"; };
-		0EAF7D701FD6FF2B00A49B49 /* attribute.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = attribute.c; sourceTree = "<group>"; };
-		0EAF7D711FD6FF2B00A49B49 /* char_ref.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = char_ref.c; sourceTree = "<group>"; };
-		0EAF7D721FD6FF2B00A49B49 /* tokenizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tokenizer.h; sourceTree = "<group>"; };
-		0EAF7D731FD6FF2B00A49B49 /* utf8.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = utf8.c; sourceTree = "<group>"; };
-		0EAF7D741FD6FF2B00A49B49 /* string_piece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = string_piece.h; sourceTree = "<group>"; };
-		0EAF7D751FD6FF2B00A49B49 /* tokenizer_states.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tokenizer_states.h; sourceTree = "<group>"; };
-		0EAF7D761FD6FF2B00A49B49 /* token_type.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = token_type.h; sourceTree = "<group>"; };
-		0EAF7D771FD6FF2B00A49B49 /* string_buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = string_buffer.h; sourceTree = "<group>"; };
-		0EAF7D781FD6FF2B00A49B49 /* error.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = error.c; sourceTree = "<group>"; };
-		0EAF7D791FD6FF2B00A49B49 /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
-		0EAF7D7A1FD6FF2B00A49B49 /* tag.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tag.c; sourceTree = "<group>"; };
-		0EAF7D7B1FD6FF2B00A49B49 /* char_ref.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = char_ref.h; sourceTree = "<group>"; };
-		0EAF7D7C1FD6FF2B00A49B49 /* vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vector.h; sourceTree = "<group>"; };
-		0EAF7D7D1FD6FF2B00A49B49 /* attribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = attribute.h; sourceTree = "<group>"; };
-		0EAF7D7E1FD6FF2B00A49B49 /* parser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = parser.c; sourceTree = "<group>"; };
-		0EAF7D7F1FD6FF2B00A49B49 /* utf8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utf8.h; sourceTree = "<group>"; };
-		0EAF7D801FD6FF2B00A49B49 /* tokenizer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tokenizer.c; sourceTree = "<group>"; };
-		0EAF7D811FD6FF2B00A49B49 /* string_piece.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = string_piece.c; sourceTree = "<group>"; };
-		0EAF7D821FD6FF2B00A49B49 /* gumbo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gumbo.h; sourceTree = "<group>"; };
-		0EAF7D831FD6FF2B00A49B49 /* OCGumbo+Query.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OCGumbo+Query.h"; sourceTree = "<group>"; };
-		0EAF7D841FD6FF2B00A49B49 /* OCGumbo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCGumbo.h; sourceTree = "<group>"; };
-		0EAF7D851FD6FF2B00A49B49 /* OCGumbo+Query.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OCGumbo+Query.m"; sourceTree = "<group>"; };
-		0EAF7D861FD6FF2B00A49B49 /* OCGumbo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCGumbo.m; sourceTree = "<group>"; };
 		0EAF7D871FD6FF2B00A49B49 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		0EAF7D881FD6FF2B00A49B49 /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
 		0EAF7D891FD6FF2B00A49B49 /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
@@ -129,7 +129,7 @@
 		0EAF7D941FD6FF2B00A49B49 /* ShotCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShotCollectionViewCell.swift; sourceTree = "<group>"; };
 		0EAF7D951FD6FF2B00A49B49 /* ImageHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageHeaderView.swift; sourceTree = "<group>"; };
 		0EAF7D961FD6FF2B00A49B49 /* DataTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataTableViewCell.swift; sourceTree = "<group>"; };
-		0EAF7DB61FD6FF9800A49B49 /* DribbbleReader-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DribbbleReader-Bridging-Header.h"; sourceTree = "<group>"; };
+		0EAF7DB61FD6FF9800A49B49 /* KJ-HitComic-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KJ-HitComic-Bridging-Header.h"; sourceTree = "<group>"; };
 		0EAF7DB81FD7008400A49B49 /* DribbbleBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DribbbleBase.swift; sourceTree = "<group>"; };
 		0EAF7DBA1FD7008400A49B49 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		0EAF7DBC1FD7008400A49B49 /* DribbbleObjectHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DribbbleObjectHandler.swift; sourceTree = "<group>"; };
@@ -163,6 +163,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E240CB41FD926D50067C658 /* OCGumbo */ = {
+			isa = PBXGroup;
+			children = (
+				0E240CB51FD926D50067C658 /* gumbo */,
+				0E240CF41FD926D50067C658 /* OCGumbo+Query.h */,
+				0E240CF51FD926D50067C658 /* OCGumbo+Query.m */,
+				0E240CF61FD926D50067C658 /* OCGumbo.h */,
+				0E240CF71FD926D50067C658 /* OCGumbo.m */,
+			);
+			path = OCGumbo;
+			sourceTree = SOURCE_ROOT;
+		};
+		0E240CB51FD926D50067C658 /* gumbo */ = {
+			isa = PBXGroup;
+			children = (
+				0E240CCE1FD926D50067C658 /* src */,
+			);
+			path = gumbo;
+			sourceTree = "<group>";
+		};
+		0E240CCE1FD926D50067C658 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				0E240CCF1FD926D50067C658 /* attribute.c */,
+				0E240CD01FD926D50067C658 /* attribute.h */,
+				0E240CD11FD926D50067C658 /* char_ref.c */,
+				0E240CD21FD926D50067C658 /* char_ref.h */,
+				0E240CD31FD926D50067C658 /* error.c */,
+				0E240CD41FD926D50067C658 /* error.h */,
+				0E240CD51FD926D50067C658 /* gumbo.h */,
+				0E240CD61FD926D50067C658 /* insertion_mode.h */,
+				0E240CD71FD926D50067C658 /* parser.c */,
+				0E240CD81FD926D50067C658 /* parser.h */,
+				0E240CD91FD926D50067C658 /* string_buffer.c */,
+				0E240CDA1FD926D50067C658 /* string_buffer.h */,
+				0E240CDB1FD926D50067C658 /* string_piece.c */,
+				0E240CDC1FD926D50067C658 /* string_piece.h */,
+				0E240CDD1FD926D50067C658 /* tag.c */,
+				0E240CDE1FD926D50067C658 /* token_type.h */,
+				0E240CDF1FD926D50067C658 /* tokenizer.c */,
+				0E240CE01FD926D50067C658 /* tokenizer.h */,
+				0E240CE11FD926D50067C658 /* tokenizer_states.h */,
+				0E240CE21FD926D50067C658 /* utf8.c */,
+				0E240CE31FD926D50067C658 /* utf8.h */,
+				0E240CE41FD926D50067C658 /* util.c */,
+				0E240CE51FD926D50067C658 /* util.h */,
+				0E240CE61FD926D50067C658 /* vector.c */,
+				0E240CE71FD926D50067C658 /* vector.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
 		0E997EA11FD8039000685DF8 /* ComicDataTools */ = {
 			isa = PBXGroup;
 			children = (
@@ -194,7 +246,8 @@
 		0EAF7D451FD6FD9300A49B49 /* KJ-HitComic */ = {
 			isa = PBXGroup;
 			children = (
-				0EAF7DB61FD6FF9800A49B49 /* DribbbleReader-Bridging-Header.h */,
+				0E240CB41FD926D50067C658 /* OCGumbo */,
+				0EAF7DB61FD6FF9800A49B49 /* KJ-HitComic-Bridging-Header.h */,
 				0E997EA11FD8039000685DF8 /* ComicDataTools */,
 				0EAF7DB71FD7008400A49B49 /* Data and Model */,
 				0EAF7D631FD6FF2B00A49B49 /* Helper */,
@@ -233,7 +286,6 @@
 		0EAF7D631FD6FF2B00A49B49 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
-				0EAF7D671FD6FF2B00A49B49 /* OCGumbo */,
 				0EAF7D641FD6FF2B00A49B49 /* UIView.swift */,
 				0EAF7D651FD6FF2B00A49B49 /* UIColor.swift */,
 				0EAF7D661FD6FF2B00A49B49 /* UITableViewExtension.swift */,
@@ -245,58 +297,6 @@
 				0EAF7D8C1FD6FF2B00A49B49 /* UIApplication.swift */,
 			);
 			path = Helper;
-			sourceTree = "<group>";
-		};
-		0EAF7D671FD6FF2B00A49B49 /* OCGumbo */ = {
-			isa = PBXGroup;
-			children = (
-				0EAF7D681FD6FF2B00A49B49 /* gumbo */,
-				0EAF7D831FD6FF2B00A49B49 /* OCGumbo+Query.h */,
-				0EAF7D841FD6FF2B00A49B49 /* OCGumbo.h */,
-				0EAF7D851FD6FF2B00A49B49 /* OCGumbo+Query.m */,
-				0EAF7D861FD6FF2B00A49B49 /* OCGumbo.m */,
-			);
-			path = OCGumbo;
-			sourceTree = "<group>";
-		};
-		0EAF7D681FD6FF2B00A49B49 /* gumbo */ = {
-			isa = PBXGroup;
-			children = (
-				0EAF7D691FD6FF2B00A49B49 /* src */,
-			);
-			path = gumbo;
-			sourceTree = "<group>";
-		};
-		0EAF7D691FD6FF2B00A49B49 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				0EAF7D6A1FD6FF2B00A49B49 /* string_buffer.c */,
-				0EAF7D6B1FD6FF2B00A49B49 /* error.h */,
-				0EAF7D6C1FD6FF2B00A49B49 /* util.c */,
-				0EAF7D6D1FD6FF2B00A49B49 /* insertion_mode.h */,
-				0EAF7D6E1FD6FF2B00A49B49 /* parser.h */,
-				0EAF7D6F1FD6FF2B00A49B49 /* vector.c */,
-				0EAF7D701FD6FF2B00A49B49 /* attribute.c */,
-				0EAF7D711FD6FF2B00A49B49 /* char_ref.c */,
-				0EAF7D721FD6FF2B00A49B49 /* tokenizer.h */,
-				0EAF7D731FD6FF2B00A49B49 /* utf8.c */,
-				0EAF7D741FD6FF2B00A49B49 /* string_piece.h */,
-				0EAF7D751FD6FF2B00A49B49 /* tokenizer_states.h */,
-				0EAF7D761FD6FF2B00A49B49 /* token_type.h */,
-				0EAF7D771FD6FF2B00A49B49 /* string_buffer.h */,
-				0EAF7D781FD6FF2B00A49B49 /* error.c */,
-				0EAF7D791FD6FF2B00A49B49 /* util.h */,
-				0EAF7D7A1FD6FF2B00A49B49 /* tag.c */,
-				0EAF7D7B1FD6FF2B00A49B49 /* char_ref.h */,
-				0EAF7D7C1FD6FF2B00A49B49 /* vector.h */,
-				0EAF7D7D1FD6FF2B00A49B49 /* attribute.h */,
-				0EAF7D7E1FD6FF2B00A49B49 /* parser.c */,
-				0EAF7D7F1FD6FF2B00A49B49 /* utf8.h */,
-				0EAF7D801FD6FF2B00A49B49 /* tokenizer.c */,
-				0EAF7D811FD6FF2B00A49B49 /* string_piece.c */,
-				0EAF7D821FD6FF2B00A49B49 /* gumbo.h */,
-			);
-			path = src;
 			sourceTree = "<group>";
 		};
 		0EAF7D8D1FD6FF2B00A49B49 /* View */ = {
@@ -485,7 +485,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -495,53 +495,53 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EAF7D9E1FD6FF2B00A49B49 /* char_ref.c in Sources */,
 				0EAF7DA81FD6FF2B00A49B49 /* UIImage.swift in Sources */,
+				0E240D0F1FD926D60067C658 /* error.c in Sources */,
 				0EAF7DAA1FD6FF2B00A49B49 /* Utils.swift in Sources */,
 				0EAF7DC31FD7008400A49B49 /* Shot.swift in Sources */,
+				0E240D161FD926D60067C658 /* util.c in Sources */,
+				0E240D0E1FD926D60067C658 /* char_ref.c in Sources */,
 				0EAF7D971FD6FF2B00A49B49 /* UIView.swift in Sources */,
+				0E240D221FD926D60067C658 /* OCGumbo+Query.m in Sources */,
 				0EAF7DC21FD7008400A49B49 /* DribbbleObjectHandler.swift in Sources */,
 				0EAF7D991FD6FF2B00A49B49 /* UITableViewExtension.swift in Sources */,
+				0E240D231FD926D60067C658 /* OCGumbo.m in Sources */,
 				0EAF7D611FD6FF1800A49B49 /* SwiftViewController.swift in Sources */,
-				0EAF7DA01FD6FF2B00A49B49 /* error.c in Sources */,
 				0EAF7DCE1FD7014A00A49B49 /* BaseViewController.swift in Sources */,
-				0EAF7DA51FD6FF2B00A49B49 /* OCGumbo+Query.m in Sources */,
 				0EAF7DA71FD6FF2B00A49B49 /* String.swift in Sources */,
 				0EAF7D621FD6FF1800A49B49 /* RightViewController.swift in Sources */,
-				0EAF7DA21FD6FF2B00A49B49 /* parser.c in Sources */,
-				0EAF7DA31FD6FF2B00A49B49 /* tokenizer.c in Sources */,
 				0EAF7DB51FD6FF2B00A49B49 /* DataTableViewCell.swift in Sources */,
+				0E240D151FD926D60067C658 /* utf8.c in Sources */,
+				0E240D131FD926D60067C658 /* tag.c in Sources */,
 				0EAF7DD81FD7018000A49B49 /* CAPSPageMenu.swift in Sources */,
 				0E997EA31FD803E100685DF8 /* ComicDataTools.swift in Sources */,
-				0EAF7DA11FD6FF2B00A49B49 /* tag.c in Sources */,
-				0EAF7D9D1FD6FF2B00A49B49 /* attribute.c in Sources */,
 				0EAF7D601FD6FF1800A49B49 /* JavaViewController.swift in Sources */,
-				0EAF7D9B1FD6FF2B00A49B49 /* util.c in Sources */,
 				0EAF7DAB1FD6FF2B00A49B49 /* UIImageView.swift in Sources */,
+				0E240D121FD926D60067C658 /* string_piece.c in Sources */,
 				0EAF7DB41FD6FF2B00A49B49 /* ImageHeaderView.swift in Sources */,
 				0EAF7DD31FD7014A00A49B49 /* ShotCollectionViewController.swift in Sources */,
 				0E997EA51FD80E4D00685DF8 /* UrlUnit.swift in Sources */,
 				0EAF7D981FD6FF2B00A49B49 /* UIColor.swift in Sources */,
-				0EAF7D9C1FD6FF2B00A49B49 /* vector.c in Sources */,
 				0EAF7DD11FD7014A00A49B49 /* ImageModalViewController.swift in Sources */,
-				0EAF7D9A1FD6FF2B00A49B49 /* string_buffer.c in Sources */,
-				0EAF7DA61FD6FF2B00A49B49 /* OCGumbo.m in Sources */,
 				0EAF7DD51FD7014A00A49B49 /* WebViewController.swift in Sources */,
-				0EAF7DA41FD6FF2B00A49B49 /* string_piece.c in Sources */,
 				0EAF7DCF1FD7014A00A49B49 /* DetailViewController.swift in Sources */,
 				0EAF7DAC1FD6FF2B00A49B49 /* UIApplication.swift in Sources */,
 				0EAF7DA91FD6FF2B00A49B49 /* UIViewController.swift in Sources */,
+				0E240D101FD926D60067C658 /* parser.c in Sources */,
 				0EAF7DB31FD6FF2B00A49B49 /* ShotCollectionViewCell.swift in Sources */,
 				0EAF7D5F1FD6FF1800A49B49 /* LeftViewController.swift in Sources */,
 				0EAF7D5E1FD6FF1800A49B49 /* NonMenuController.swift in Sources */,
+				0E240D171FD926D60067C658 /* vector.c in Sources */,
+				0E240D141FD926D60067C658 /* tokenizer.c in Sources */,
 				0EAF7DBF1FD7008400A49B49 /* DribbbleBase.swift in Sources */,
 				0EAF7DAE1FD6FF2B00A49B49 /* GoViewController.swift in Sources */,
 				0EAF7DC01FD7008400A49B49 /* Config.swift in Sources */,
-				0EAF7D9F1FD6FF2B00A49B49 /* utf8.c in Sources */,
+				0E240D111FD926D60067C658 /* string_buffer.c in Sources */,
 				0EAF7DAF1FD6FF2B00A49B49 /* ExSlideMenuController.swift in Sources */,
 				0EAF7DC41FD7008400A49B49 /* HttpService.swift in Sources */,
 				0EAF7DAD1FD6FF2B00A49B49 /* BaseTableViewCell.swift in Sources */,
 				0EAF7D471FD6FD9300A49B49 /* AppDelegate.swift in Sources */,
+				0E240D0D1FD926D60067C658 /* attribute.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -571,6 +571,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -610,6 +611,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -621,6 +623,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -653,6 +656,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -664,14 +668,20 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DBA60A7690FA08DA5D7ED9B2 /* Pods-KJ-HitComic.debug.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 9WY83NL9RY;
 				INFOPLIST_FILE = "KJ-HitComic/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KJ-HitComic/Helper/OCGumbo/gumbo",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kobehjk.KJ-HitComic";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/hejinkun/Documents/MyGitHub/K-HitComic_iOS/KJ-HitComic/KJ-HitComic/KJ-HitComic-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -680,14 +690,20 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 03D5405D4EB2DC603CD4FFED /* Pods-KJ-HitComic.release.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 9WY83NL9RY;
 				INFOPLIST_FILE = "KJ-HitComic/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KJ-HitComic/Helper/OCGumbo/gumbo",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kobehjk.KJ-HitComic";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/hejinkun/Documents/MyGitHub/K-HitComic_iOS/KJ-HitComic/KJ-HitComic/KJ-HitComic-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

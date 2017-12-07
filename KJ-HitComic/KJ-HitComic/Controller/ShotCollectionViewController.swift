@@ -33,7 +33,7 @@ class ShotCollectionViewController: UICollectionViewController{
         super.viewDidLoad()
     }
     
-    func loadShots(){
+    func loadShots(index:Int){
         self.collectionView!.backgroundColor = UIColor.hexStr("f5f5f5", alpha: 1.0)
         
         cellWidth = self.view.bounds.width
@@ -41,9 +41,15 @@ class ShotCollectionViewController: UICollectionViewController{
         
         self.collectionView?.register(UINib(nibName: "ShotCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: reuseIdentifier_Shot)
         
-        DribbleObjectHandler.getShots(API_URL, callback: {(shots) -> Void in
-            self.shots = shots
-        })
+//        DribbleObjectHandler.getShots(API_URL, callback: {(shots) -> Void in
+//            self.shots = shots
+//        })
+        ComicDataTools.shared.requestHotDay(urlstring: UrlUnit.liFan) { (shotArray) in
+            let dic :Dictionary = shotArray[index] as Dictionary
+            
+            self.shots = dic["imgArray"] as! [Shot]
+        }
+        
         
         let refreshControl = UIRefreshControl()
         refreshControl.addTarget(self, action: #selector(ShotCollectionViewController.refreshInvoked(_:)), for: UIControlEvents.valueChanged)
@@ -81,9 +87,9 @@ class ShotCollectionViewController: UICollectionViewController{
 //        cell.imageView.layer.shadowOpacity = 0.8
 //        cell.imageView.layer.shadowRadius = 5
         
-        cell.designerIcon.sd_setImage(with: URL(string: shot.avatarUrl)!)
-        cell.designerIcon.layer.cornerRadius = cell.designerIcon.bounds.width / 2
-        cell.designerIcon.layer.masksToBounds = true
+//        cell.designerIcon.sd_setImage(with: URL(string: shot.avatarUrl)!)
+//        cell.designerIcon.layer.cornerRadius = cell.designerIcon.bounds.width / 2
+//        cell.designerIcon.layer.masksToBounds = true
         
         cell.shotName.text = shot.shotName
         cell.designerName.text = shot.designerName
@@ -94,13 +100,13 @@ class ShotCollectionViewController: UICollectionViewController{
             shotPages += 1
             print(shotPages)
             let url = API_URL + "&page=" + String(shotPages)
-            DribbleObjectHandler.getShots(url, callback: {(shots) -> Void in
-//                self.shots = shots
-                
-                for shot in shots {
-                    self.shots.append(shot)
-                }
-            })
+//            DribbleObjectHandler.getShots(url, callback: {(shots) -> Void in
+////                self.shots = shots
+//
+//                for shot in shots {
+//                    self.shots.append(shot)
+//                }
+//            })
         }
         
 //        cell.imageView.bounds = CGRectMake(0, 0, cellWidth, cellHeight)

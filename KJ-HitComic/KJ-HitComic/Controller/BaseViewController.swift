@@ -29,25 +29,25 @@ class BaseViewController: UIViewController {
         let popularShot = ShotCollectionViewController(nibName: "ShotCollectionViewController", bundle: nil)
         popularShot.title = "Popular"
         popularShot.API_URL = Config.POPULAR_URL
-        popularShot.loadShots()
+        popularShot.loadShots(index:0)
         controllerArray.append(popularShot)
         
         let gifShot = ShotCollectionViewController(nibName: "ShotCollectionViewController", bundle: nil)
         gifShot.title = "GIFs"
         gifShot.API_URL = Config.GIF_URL
-        gifShot.loadShots()
+        gifShot.loadShots(index:1)
         controllerArray.append(gifShot)
         
         let teamsShot = ShotCollectionViewController(nibName: "ShotCollectionViewController", bundle: nil)
         teamsShot.title = "Teams"
         teamsShot.API_URL = Config.TEAMS_URL
-        teamsShot.loadShots()
+        teamsShot.loadShots(index:2)
         controllerArray.append(teamsShot)
         
         let reboundsShot = ShotCollectionViewController(nibName: "ShotCollectionViewController", bundle: nil)
         reboundsShot.title = "Rebounds"
         reboundsShot.API_URL = Config.REBOUNDS_URL
-        reboundsShot.loadShots()
+        reboundsShot.loadShots(index:3)
         controllerArray.append(reboundsShot)
         
         let parameters: [CAPSPageMenuOption] = [
@@ -73,6 +73,7 @@ class BaseViewController: UIViewController {
         self.view.addSubview(pageMenu!.view)
         self.addChildViewController(pageMenu!)
         pageMenu?.didMove(toParentViewController: self)
+//        ComicDataTools.shared.requestHotDay(urlstring: UrlUnit.liFan)
     }
 
     override func viewWillAppear(_ animated: Bool) {

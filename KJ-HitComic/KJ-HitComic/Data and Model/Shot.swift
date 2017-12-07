@@ -16,19 +16,18 @@ class Shot: DribbbleBase {
     var shotName = ""
     var designerName = ""
     var avatarUrl = ""
-    var shotCount = 0
+    var shotCount = ""
     
     override init(data: NSDictionary) {
         super.init(data: data)
         
-        let images = data["images"] as! NSDictionary
-        self.imageUrl = Utils.getStringFromJSON(images, key: "normal")
+//        let images = data["images"] as! NSDictionary
+        self.imageUrl = data["imglink"] as! String
         self.htmlUrl = data["html_url"] as! String
         
         shotName = data["title"] as! String
-        let user = data["user"] as! NSDictionary
-        designerName = Utils.getStringFromJSON(user, key: "name")
-        avatarUrl = Utils.getStringFromJSON(user, key: "avatar_url")
-        shotCount = data["views_count"] as! Int
+        designerName = data["user"] as! String
+        avatarUrl = data["html_url"] as! String
+        shotCount = "阅读次数："
     }
 }
